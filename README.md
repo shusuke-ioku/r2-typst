@@ -6,25 +6,13 @@ One style file powers both your manuscript and your talk — change the design t
 
 ## Preview
 
-<details open>
-<summary><b>Paper — title page</b></summary>
-<img src="screenshots/paper-1.png" width="500">
-</details>
+**Paper**
 
-<details>
-<summary><b>Paper — regression table</b></summary>
-<img src="screenshots/paper-2.png" width="500">
-</details>
+<img src="screenshots/preview-paper.png" width="700">
 
-<details>
-<summary><b>Slides — title slide</b></summary>
-<img src="screenshots/slides-title-1.png" width="600">
-</details>
+**Slides**
 
-<details>
-<summary><b>Slides — content slide</b></summary>
-<img src="screenshots/slides-content-2.png" width="600">
-</details>
+<img src="screenshots/preview-slides.png" width="700">
 
 ## Features
 
