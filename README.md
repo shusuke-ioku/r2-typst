@@ -4,11 +4,27 @@ LaTeX-like minimalist Typst template for academic papers and presentation slides
 
 One style file powers both your manuscript and your talk — change the design tokens once, and everything updates.
 
-## Screenshots
+## Preview
 
-| Paper | Slides |
-|-------|--------|
-| ![Paper](screenshots/paper-1.png) | ![Slides](screenshots/slides-title-1.png) |
+<details open>
+<summary><b>Paper — title page</b></summary>
+<img src="screenshots/paper-1.png" width="500">
+</details>
+
+<details>
+<summary><b>Paper — regression table</b></summary>
+<img src="screenshots/paper-2.png" width="500">
+</details>
+
+<details>
+<summary><b>Slides — title slide</b></summary>
+<img src="screenshots/slides-title-1.png" width="600">
+</details>
+
+<details>
+<summary><b>Slides — content slide</b></summary>
+<img src="screenshots/slides-content-2.png" width="600">
+</details>
 
 ## Features
 
