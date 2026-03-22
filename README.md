@@ -92,7 +92,58 @@ Override any design token by passing a `style` dictionary:
 )
 ```
 
-All available tokens are listed in the `default-style` dictionary in `lib.typ`.
+### All available tokens
+
+```typst
+default-style = (
+  // Page
+  page_margin: (x: 1.2in, y: 1.2in),
+  page_numbering: "1",
+
+  // Typography
+  body_font: "New Computer Modern",
+  body_size: 11pt,
+  body_color: black,
+  body_top_edge: 0.7em,
+  body_bottom_edge: -0.3em,
+  paragraph_leading: 1em,
+  paragraph_indent: 1.8em,
+
+  // Headings
+  heading_numbering: "1.",
+  heading_size: 1em,
+  heading_weight: "bold",
+  heading_color: black,
+  heading_level1_size: 0.9em,
+
+  // Title block
+  title_size: 1.4em,
+  subtitle_size: 1em,
+  title_leading: 0.5em,
+
+  // Abstract
+  abstract_size: 0.9em,
+  abstract_leading: 0.4em,
+
+  // Tables and figures
+  table_text_size: 0.8em,
+  table_leading: 0.65em,
+  table_top_edge: 0.35em,
+  table_bottom_edge: -0.3em,
+  block_above: 1.5em,
+  block_below: 1.5em,
+
+  // Footnotes
+  footnote_numbering: "[1]",
+
+  // Colors
+  accent_main: rgb(0, 0, 100),
+  accent_link: rgb(0, 0, 100),
+  accent_ref: rgb(0, 0, 100),
+  accent_cite: rgb(0, 0, 100),
+  accent_footnote: rgb(0, 0, 100),
+)
+```
 
 ## Dependencies
 
