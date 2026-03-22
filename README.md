@@ -6,13 +6,11 @@ One style file powers both your manuscript and your talk — change the design t
 
 ## Preview
 
-**Paper**
+<p align="center"><b>Paper</b></p>
+<p align="center"><img src="screenshots/preview-paper.png" width="700"></p>
 
-<img src="screenshots/preview-paper.png" width="700">
-
-**Slides**
-
-<img src="screenshots/preview-slides.png" width="700">
+<p align="center"><b>Slides</b></p>
+<p align="center"><img src="screenshots/preview-slides.png" width="700"></p>
 
 ## Features
 
