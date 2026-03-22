@@ -16,9 +16,10 @@
 
   #set align(horizon)
 
-  - Why does this question matter?
-  - What gap does this paper fill?
-  - What is the main finding?
+  Existing theories predict X, but we observe Y.
+
+  - Gap one in the literature
+  - Gap two in the literature
 ]
 
 #slide[
@@ -26,9 +27,10 @@
 
   #set align(horizon)
 
-  - Key mechanism
-  - Main prediction
-  - How it differs from alternatives
+  The key mechanism is Z.
+
+  - Prediction 1: when A increases, B decreases
+  - Prediction 2: the effect is stronger under C
 ]
 
 #slide[
@@ -36,9 +38,11 @@
 
   #set align(horizon)
 
-  - Unit of analysis
-  - Treatment and outcome variables
-  - Identification strategy
+  Panel data covering N units over T periods.
+
+  - Treatment: policy change in year $t_0$
+  - Outcome: organizational count per region-year
+  - Design: difference-in-differences with unit and year FE
 ]
 
 #slide[
@@ -60,7 +64,9 @@
 
   #set align(horizon)
 
-  - Main takeaway
-  - Implications
+  This paper shows that X causes Y through mechanism Z.
+
+  - Implication for theory
+  - Implication for policy
   - Next steps
 ]
