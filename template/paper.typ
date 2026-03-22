@@ -47,20 +47,34 @@ Use theorem environments for formal results:
 
 = Results
 
-Tables use `caption-with-note` for titles with footnotes:
-
 #figure(
-  table(
-    columns: 3,
-    table.header[Variable][Coefficient][Std. Error],
-    [Treatment], [0.234\*\*\*], [(0.045)],
-    [Control], [0.012], [(0.033)],
-  ),
+  block(width: 100%)[#set text(size: 0.8em)
+    #table(
+      columns: (1fr, 1fr, 1fr, 1fr),
+      align: (left, center, center, center),
+      stroke: none,
+      table.hline(stroke: 0.8pt),
+      table.header[][*(1)*][*(2)*][*(3)*],
+      table.hline(stroke: 0.4pt),
+      [Treatment],        [0.234\*\*\*], [0.198\*\*],   [0.211\*\*\*],
+      [],                 [(0.045)],     [(0.062)],     [(0.048)],
+      [Log(Population)],  [],            [0.087\*],     [0.092\*\*],
+      [],                 [],            [(0.041)],     [(0.039)],
+      [Income per capita], [],           [],            [$-$0.003],
+      [],                 [],            [],            [(0.011)],
+      table.hline(stroke: 0.4pt),
+      [Unit FE],          [Yes],         [Yes],         [Yes],
+      [Year FE],          [Yes],         [Yes],         [Yes],
+      [Observations],     [2,450],       [2,450],       [2,450],
+      [$R^2$],            [0.423],       [0.431],       [0.433],
+      table.hline(stroke: 0.8pt),
+    )
+  ],
   caption: caption-with-note(
-    [Treatment Effects on Organizational Growth],
-    [Standard errors clustered at the unit level. \*\*\* p < 0.01.]
+    [Treatment Increases Organizational Growth],
+    [Unit of observation is region-year. Standard errors clustered at the unit level in parentheses. \* $p < 0.10$, \*\* $p < 0.05$, \*\*\* $p < 0.01$.]
   ),
-)
+) <tab:main>
 
 = Conclusion
 
