@@ -42,7 +42,7 @@ Use theorem environments for formal results:
 ]
 
 #proof[
-  The proof follows from backward induction. $square$
+  The proof follows from backward induction.
 ]
 
 = Results
