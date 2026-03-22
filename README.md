@@ -1,6 +1,6 @@
 # r2-typst
 
-Academic paper and presentation slides template for social science research.
+Academic paper and presentation slides template.
 
 One style file powers both your manuscript and your talk — change the design tokens once, and everything updates.
 

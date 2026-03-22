@@ -4,10 +4,9 @@ version = "0.1.0"
 entrypoint = "lib.typ"
 authors = ["r2 contributors"]
 license = "MIT"
-description = "Academic paper and presentation slides template for social science research"
+description = "Academic paper and presentation slides template"
 categories = ["paper", "presentation"]
-disciplines = ["political-science", "economics", "sociology"]
-keywords = ["academic", "paper", "slides", "polylux", "social-science"]
+keywords = ["academic", "paper", "slides", "polylux", "template"]
 repository = "https://github.com/shusuke-ioku/r2-typst"
 
 [template]
