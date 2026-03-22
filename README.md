@@ -1,12 +1,18 @@
 # r2-typst
 
-Academic paper and presentation slides template.
+LaTeX-like minimalist Typst template for academic papers and presentation slides.
 
 One style file powers both your manuscript and your talk — change the design tokens once, and everything updates.
 
+## Screenshots
+
+| Paper | Slides |
+|-------|--------|
+| ![Paper](screenshots/paper-1.png) | ![Slides](screenshots/slides-title-1.png) |
+
 ## Features
 
-- **Paper layout**: title block, abstract, numbered sections, APSA bibliography
+- **Paper layout**: title block, abstract, numbered sections, bibliography
 - **Slides layout**: 4:3 Polylux slides with matching title slide
 - **Theorem environments**: Proposition, Lemma, Assumption, Theorem, Proof (via ctheorems)
 - **Table helpers**: `caption-with-note`, `table-note` for publication-ready tables
@@ -17,7 +23,7 @@ One style file powers both your manuscript and your talk — change the design t
 
 Copy `lib.typ` into your project, then:
 
-**Paper:**
+**Paper** ([full example](template/paper.typ)):
 
 ```typst
 #import "./lib.typ": paper, nneq, caption-note, caption-with-note,
@@ -36,7 +42,7 @@ Copy `lib.typ` into your project, then:
 Start writing.
 ```
 
-**Slides:**
+**Slides** ([full example](template/slides.typ)):
 
 ```typst
 #import "@preview/polylux:0.4.0": *
@@ -56,6 +62,13 @@ Start writing.
   - Point one
   - Point two
 ]
+```
+
+Compile with:
+
+```bash
+typst compile --root . paper.typ
+typst compile --root . slides.typ
 ```
 
 ## Customization
